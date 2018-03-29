@@ -33,7 +33,7 @@
 
 
 
-const fortyTwo = () => 42;
+const fortyTwo = () => 42
 
 
 
@@ -42,7 +42,7 @@ const fortyTwo = () => 42;
 const helloWorld = () =>
 
 
-  'Hello ' + ''
+  "Hello"
 
 
 
@@ -51,7 +51,7 @@ const helloWorld = () =>
 const twoTrue = () =>
 
 
-  2 === 2
+  2 + 5 === 3 + 4
 
 
 
@@ -59,7 +59,7 @@ const twoTrue = () =>
 const trueNotTwo = () =>
 
 
-  2 !== 2
+  2 !== 3
 
 
 
@@ -68,10 +68,7 @@ const trueNotTwo = () =>
 const twoPlusTwo = () =>
 
 
-  2 + 2 === 5
-
-
-
+  2 + 2 !== 5
 
 
 
@@ -79,7 +76,7 @@ const twoPlusTwo = () =>
 const ohYeahDecimals = () =>
 
 
-  1.0 + 1.0 + 1.0 === 4
+  1.0 + 1.0 + 1.0 !== 4
 
 
 
@@ -88,7 +85,7 @@ const ohYeahDecimals = () =>
 const ohNoDecimals = () =>
 
 
-  { 0.1 + 0.1 + 0.1 === 0.3}
+  0.1 + 0.1 + 0.1 !== 0.3
 
 
 
@@ -97,14 +94,14 @@ const ohNoDecimals = () =>
 const waxingParenthetical = () =>
 
 
-  2 * 5 + 1 === 12
+  2 * 5 + 1 !== 12
 
 
 
 
+const add = (numOne, numTwo) =>
 
-const add = (numOne, numTwo) => ''
-  
+  1, 2 
 
 
 const closure = () => (
